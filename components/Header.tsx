@@ -19,7 +19,7 @@ const Header = () => {
         <p className="cursor-pointer hover:text-gray-400 duration-700">Pricing</p>
     </div>
 
-    <button className="h-[3rem] px-7 bg-[#ff3841] font-bold">
+    <button className="h-[3rem] px-7 bg-[#ff3841] hover:bg-gradient-to-tl from-pink-500 to-violet-500 font-bold">
         Schedule a call
     </button>
       </div>
