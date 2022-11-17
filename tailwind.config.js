@@ -6,7 +6,12 @@ module.exports = {
     './app/**/*.{js,ts,jsx,tsx}',
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        sans: ['Lexend','Poppins', 'sans-serif'],
+        brand: ['Beau Rivage', 'Poppins', 'cursive']
+      }
+    },
   },
   plugins: [],
 }
