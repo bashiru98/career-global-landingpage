@@ -1,5 +1,6 @@
 import Image from "next/image";
 import React from "react";
+import { BiChevronDown } from "react-icons/bi";
 
 const Header = () => {
   return (
@@ -11,13 +12,14 @@ const Header = () => {
         <p className="cursor-pointer hover:text-gray-400 duration-700">Product</p>
         <p className="cursor-pointer hover:text-gray-400 duration-700">Growth</p>
         <p className="cursor-pointer hover:text-gray-400 duration-700">Clients</p>
-        <div>
-        <p className="cursor-pointer hover:text-gray-400 duration-700">Resources</p>
+        <div className="flex items-center space-x-2 hover:text-gray-400">   
+        <p className="cursor-pointer duration-700">Resources</p>
+        <BiChevronDown />
         </div>
         <p className="cursor-pointer hover:text-gray-400 duration-700">Pricing</p>
     </div>
 
-    <button className="h-[3rem] px-7 bg-red-600 font-bold">
+    <button className="h-[3rem] px-7 bg-[#ff3841] font-bold">
         Schedule a call
     </button>
       </div>
