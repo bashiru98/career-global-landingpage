@@ -8,7 +8,7 @@ const Footer = () => {
   return (
     <footer className='h-[22.5rem] w-full bg-[#0f072c]'>
         <div className="w-full xl:w-[1150px] h-full mx-auto flex flex-col justify-between pt-[4rem]">
-            <div className='flex items-start justify-between' >
+            <div className='flex items-start space-x-20' >
                 <div>
                   <h2 className='tracking-wider text-[1.1rem] text-[#9f9cab] font-bold mb-4' >CAPABILITIES</h2>
                   <p className='text-[1.1rem] mb-2 cursor-pointer text-white'>Product</p>
