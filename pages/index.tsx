@@ -36,4 +36,5 @@ const Home: NextPage = () => {
   );
 };
 
+{/* <SectionFour /> */}
 export default Home;

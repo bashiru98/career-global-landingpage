@@ -63,4 +63,10 @@ const VideoCard = ({capabilities, description, heading, title, video, titleColor
   );
 };
 
+
+// <button className={`h-[3rem] px-7 ${buttonColor} text-white font-bold flex items-center space-x-2`}>
+// <p>Learn more</p>
+// <BsArrowRight size={20} />
+// </button>
+
 export default VideoCard;

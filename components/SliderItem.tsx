@@ -1,6 +1,8 @@
 import Image from "next/image";
 
 const SliderItem = () => {
+
+  // console.log("ref", ref)
   return (
     <div className="h-[32rem] flex items-center rounded-lg bg-[#f8f9ff] p-[4rem]">
       <div className="flex-1">
@@ -32,7 +34,7 @@ const SliderItem = () => {
         <p className="font-bold">Hussam Al-Saleh, <span className="font-normal">D. CEO</span> </p>
       </div>
 
-      <div className="flex-1 relative">
+      <div className="relative flex-1">
         <Image src={"https://surge.global/wp-content/uploads/2022/09/avis-saudi.webp"} alt="" height={500} width={700} className="" />
       </div>
     </div>
